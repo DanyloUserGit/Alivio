@@ -1,0 +1,511 @@
+.header{
+    background-color: #ffffff;
+    height: 85px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.header__burger__{
+    display: none;
+}
+.logo{
+    margin-left: 2vw;
+    font-size: 25px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+.green{
+    color:#01996D;
+}
+.menu li{
+    padding-left: 72px;
+}
+.menu li a{
+    color: #292929;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+}   
+.flex{
+    display: flex;
+}
+.logPannel{
+    display: flex;
+}
+.button {
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background: #01996D;
+    border: 1px solid #01996D;
+    border-radius: 4px;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+}
+.button:hover{
+    border-radius: 6px;
+    background: #067657;
+}
+.start{
+    height: 20%;
+}
+.log{
+    margin: 1vh 1vw;
+    color: #000000;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+.logo, .menu{
+    margin-top: 4vh;
+}
+.logPannel{
+    margin-top: 3vh;
+}
+.preview{
+    text-align:center;
+}
+.heading{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 74px;
+}
+.text, .heading{
+    text-align-last: left;
+    display:inline-block;
+}
+.preview{
+    width: 110vw;
+}
+.preview h1{
+    position: absolute;
+    top: 261px;
+    left: 9vw;
+    font-size: 65px;
+}
+.preview span{
+    position: absolute;
+    top: 439px;
+    left: 9.5vw;
+}
+.preview__img__{
+    position: relative;
+    width: 100%;
+}
+.preview .button{
+    position: absolute;
+    top: 530px;
+    left: 9vw;
+}
+.steps{
+    padding: auto;
+}
+.top{
+    margin-top: 78px;
+    display: flex;
+    justify-content: center;
+}
+.steps_text_{
+    margin: 5% 10%;
+}
+.name{
+    position: relative;
+}
+.name span{
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 'Georgia';
+    position: absolute;
+    top: 70%;
+    left: 5vw;
+}
+.card_list{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    margin: 0 auto;
+}
+.description{
+    padding: 55px 0;
+}
+#i1{
+    margin-top: 187px;
+}
+#i2{
+    margin-top: 340px;
+}
+#i3{
+    margin-top: 207px;
+}
+.example{
+    background: #245852;
+    margin: 5vh 0;
+    display: flex;
+    justify-content:center;
+    height: 100vh;
+    width: 110vw;
+}
+.example div{
+    position: relative;
+    top: 20vh;
+}
+.example img{
+    max-width: 896px;
+    max-height: 517px;
+    position: relative;
+    top: 20vh;
+    left: 5vw;
+}
+.pre_heading{
+    margin: 33px 0;
+}
+.footer{
+    background: #245852;
+    display: flex;
+    flex-direction: column;
+    width: 110vw;
+}
+.white{
+    color: #ffffff;
+}
+.clients{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+}
+.data{
+    width:296px;
+    height: 293px;
+    background: #ffffff;
+    box-shadow: #000000 0px 0px 3px;
+    border-radius: 3.72px;
+}
+.line{
+    width: 110px;
+}
+.bold{
+    font-weight: 700;
+}
+.additionally{
+    display: flex;
+    flex-direction: column;
+    margin: 6vh 0;
+}
+.upper{
+    margin: 10px 33%;
+    font-weight: 600;
+    font-size: 14.49px;
+}
+.avatar, .username{
+    margin: 10px 38%;
+    font-weight: 400;
+    font-size: 11.9351px;
+}
+.username{
+    margin: 10px 41%;
+}
+.avatar{
+    border-radius: 100%;
+    background: #C4C4C4;
+}
+.up{
+    margin: 10px 24%;
+}
+.propers{
+    list-style:disc;
+}
+.propers li{
+    margin: 20px 20px;
+}
+.wrapper{
+    background: rgba(1, 153, 109, 0.2);
+    border-radius: 18.1125px;
+    width: 640px;
+    height: 570px;
+}
+.wrapper img{
+    padding-left: 15%;
+}
+.container{
+    position: relative;
+    top: 10vh;
+}
+.individ{
+    position: absolute;
+    top: 40%;
+    left: -5%;
+}
+.additionally .button{
+    width: 150px;
+    margin: 40px 0;
+}
+.additionally .text{
+    margin: 20px 0;
+}
+.list li a{
+    color: #ffffff;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+}
+.list li{
+    margin: 30px 0;
+}
+.footer .logo, .list{
+    margin: 15px 5vw;
+}
+@media screen and (max-width: 1300px){
+    .example .heading{
+        font-size: 5.4vw;
+        line-height: 5.4vw;
+    }
+    .example img{
+        max-width: 598px;
+        max-height: 345px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .card img{
+        max-width: 30vw;
+    }
+    .wrapper{
+        width: 41.6vw;
+        height: 37.1vw;
+    }
+    .wrapper img{
+        width: 31.6vw;
+        height: 37.1vw;
+        margin: 0% 0;
+    }
+    .individ{
+        top: 35%;
+        left: 0;
+    }
+    .clients .heading{
+        font-size: 5.4vw;
+        line-height: 5.4vw;
+    }
+}
+@media screen and (max-width: 1100px){
+    .preview .heading{
+        top: 13vh;
+    }
+    .preview .text{
+        top: 33vh;
+    }
+    .preview .button{
+        top: 40vh;
+    }
+    .top .heading{
+        font-size: 5.4vw;
+        line-height: 5.4vw;
+    }
+    .individ{
+        top: 30%;
+        left: 0;
+    }
+}
+@media screen and (max-width: 800px){
+    .preview .heading{
+        font-size: 6.020vw;
+        line-height: 7vw;
+    }
+    .preview .text{
+        top: 25vh;
+        font-size: 2.3vw;
+    }
+    .preview .button{
+        top: 35vh;
+        width: 17vw;
+        height: 2vh;
+        font-size: 2.4vw;
+    }
+    .preview .heading, .preview .text, .preview .button{
+        left: 5vw;
+    }
+    .top .text{
+        font-size: 2.4vw;
+        margin: 10% 10%;
+    }
+    .top .pre_heading{
+        font-size: 2.4vw;
+    }
+    .example{
+        background: #245852;
+        margin: 10vh 0;
+        display: flex;
+        justify-content:space-between;
+    }
+    .example div{
+        top: 30vh;
+    }
+    .example img{
+        max-width: 448px;
+        max-height: 259px;
+        top: 30vh;
+        left: 10vw;
+    }
+    .example{
+        display: list-item;
+        list-style: none;
+        width: 110vw;
+    }
+    .example div{
+        left: 10vw;
+    }
+    .data{
+        width:222px;
+    }
+    .clients .button{
+        margin: 0 0;
+    }
+    .clients{
+        display: list-item;
+    }
+    .additionally{
+        margin: 25vh 0;
+    }
+    .wrapper{
+        width: 57.6vw;
+        height: 47.1vw;
+    }
+    .wrapper img{
+        width: 41.6vw;
+        height: 47.1vw;
+        margin: 0% 0;
+    }
+    .data{
+        height: 270px;
+    }
+    .propers li{
+        margin: 0;
+    }
+    .individ{
+        top: 70%;
+    }
+    .clients{
+        height: auto;
+    }
+}
+.v{
+    display: none;
+}
+@media screen and (max-width: 768px){
+    .h{
+        display: none;
+    }
+    .menu-icon {
+        margin: 35px auto;
+        z-index: 9;
+        width: 20px;
+        height: 14px;
+        cursor: pointer;
+        position: relative;
+      }
+      .menu-icon span {
+        background-color: black;
+        height: 2px;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        transition: all 0.3s ease;
+      }
+      .menu-icon span:first-child {
+        top: 0;
+      }
+      .menu-icon span:nth-child(2) {
+        top: 6px;
+      }
+      .menu-icon span:last-child {
+        top: 12px;
+      }
+      .menu-icon:hover span:nth-child(2) {
+        opacity: 0;
+      }
+      .menu-icon:hover span:first-child,
+      .menu-icon:hover span:last-child {
+        top: 6px;
+        background-color: red;
+      }
+      .menu-icon:hover span:first-child {
+        transform: rotate(45deg);
+      }
+      .menu-icon:hover span:last-child {
+        transform: rotate(-45deg);
+      }
+      .container_:hover .v{
+        z-index: 999;
+        width: 100px;
+        height: 200px;
+        display: block;
+      }.container_:hover{
+        z-index: 999;
+        width: 110vw;
+        height: 110vw;
+        background-color: #ffffff;
+      }
+}
+@media screen and (max-width: 600px){
+    .additionally{
+        margin:35vh 0;
+    }
+    .preview .button{
+        top: 27vh;
+        height: 1vh;
+    }
+    .preview .text{
+        top: 22vh;
+    }
+    .preview .heading{
+        font-size: 5.020vw;
+        line-height: 6vw;
+    }
+    .name img{
+        max-width: 10vw;
+    }
+    .name span{
+        font-size: 3vw;
+    }
+    .description{
+        font-size: 2.4vw;
+    }
+    .top .pre_heading{
+        margin: 1.4vh 0;
+    }
+    .example button{
+        width: 17vw;
+        height: 1vh;
+    }
+    .example img, .example div{
+        left: 2vw;
+    }
+    .example img{
+        max-width: 336px;
+        max-height: 194px;
+    }
+}
+@media screen and (max-width: 420px){
+    .preview .button{
+        top: 24vh;
+        height: 1vh;
+    }
+    .preview .text{
+        top: 20vh;
+    }
+    .preview .heading{
+        font-size: 5.020vw;
+        line-height: 6vw;
+        top: 13vh;
+    }
+}
